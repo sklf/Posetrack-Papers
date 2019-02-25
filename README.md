@@ -1,10 +1,9 @@
 ---
 
----
 
 [**Top-Down**]
 
-- [Detect-and-Track: Efficient Pose Estimation in Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Girdhar_Detect-and-Track_Efficient_Pose_CVPR_2018_paper.pdf)[[code](https://github.com/facebookresearch/DetectAndTrack)]
+- [Detect-and-Track: Efficient Pose Estimation in Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Girdhar_Detect-and-Track_Efficient_Pose_CVPR_2018_paper.pdf) [[code](https://github.com/facebookresearch/DetectAndTrack)]
 
   contribution: 
 
@@ -13,7 +12,7 @@
 
   ![1551017209071](./figures/1551017209071.png)
 
-- [RMPE: Regional Multi-Person Pose Estimation](https://arxiv.org/pdf/1612.00137)[[code](https://github.com/MVIG-SJTU/AlphaPose)]
+- [RMPE: Regional Multi-Person Pose Estimation](https://arxiv.org/pdf/1612.00137) [[code](https://github.com/MVIG-SJTU/AlphaPose)]
 
   contribution: 
 
@@ -23,7 +22,7 @@
 
   ![1551019792483](./figures/1551019792483.png)
 
-- [Simple Baselines for Human Pose Estimation and Tracking ](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.pdf)[[code](https://github.com/Microsoft/human-pose-estimation.pytorch)]
+- [Simple Baselines for Human Pose Estimation and Tracking ](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.pdf) [[code](https://github.com/Microsoft/human-pose-estimation.pytorch)]
 
   contribution: 
 
@@ -33,7 +32,7 @@
 
   ![1551017260381](./figures/1551017260381.png)
 
-- [Cascaded Pyramid Network for Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Cascaded_Pyramid_Network_CVPR_2018_paper.pdf)[[code](https://github.com/chenyilun95/tf-cpn)]
+- [Cascaded Pyramid Network for Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Cascaded_Pyramid_Network_CVPR_2018_paper.pdf) [[code](https://github.com/chenyilun95/tf-cpn)]
 
   contribution: 
 
@@ -45,7 +44,7 @@
 
      ![1551018107368](./figures/1551018107368.png)
 
-- [Pose Flow: Efficient Online Pose Tracking](https://arxiv.org/pdf/1802.00977)[[code](https://github.com/YuliangXiu/PoseFlow)]
+- [Pose Flow: Efficient Online Pose Tracking](https://arxiv.org/pdf/1802.00977) [[code](https://github.com/YuliangXiu/PoseFlow)]
 
   contribution: 
 
@@ -66,7 +65,7 @@
 
 [**Bottom-Up**]
 
-- [OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/pdf/1812.08008)[[code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]
+- [OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/pdf/1812.08008) [[code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]
 
   contribution:
 
@@ -75,7 +74,7 @@
 
 ![open pose](./figures/1551021542584.png)
 
-- [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](https://arxiv.org/pdf/1807.04067v1.pdf)[[code](https://github.com/mkocabas/pose-residual-network)]
+- [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](https://arxiv.org/pdf/1807.04067v1.pdf) [[code](https://github.com/mkocabas/pose-residual-network)]
 
   TO READ
 

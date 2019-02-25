@@ -1,4 +1,8 @@
 ---
+typora-copy-images-to: figures
+---
+
+---
 
 
 [**Top-Down**]
@@ -36,7 +40,7 @@
 
   contribution: 
 
-  1. 提出了一种[金字塔](https://www.baidu.com/s?wd=%E9%87%91%E5%AD%97%E5%A1%94&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd)型的串接模型，即CPN（cascaded pyramid network），这个模型能够同时兼顾人体关节点的局部信息以及全局信息，结果取得了不错的效果；
+  1. 提出了一种金字塔型的串接模型，即CPN（cascaded pyramid network），这个模型能够同时兼顾人体关节点的局部信息以及全局信息，结果取得了不错的效果；
 
   2. 使用了在线难例挖掘（online hard keypoints mining）的技术，这对于人体姿态估计任务中一些存在遮挡的“hard”的关键点的预测有所帮助；
 

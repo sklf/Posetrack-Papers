@@ -90,8 +90,6 @@
 
 - [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](https://arxiv.org/pdf/1807.04067v1.pdf) [[code](https://github.com/mkocabas/pose-residual-network)]
 
-  TO READ
-
   conribution:
 
   1. Backbone网络用于提取图片在多尺度下的特征，第二部分包括两个分开、独立的网络，其中一个用来检测图片中所有的人体关键点（keypoint_subnet），另外一个用来图片中的行人检测（person_detect subnet），最后是PRN（Pose Residual Network）网络，将关键点检测的输出和行人检测的输出裁剪到一个固定大小的值，然后再对其进行关键点到行人的映射；

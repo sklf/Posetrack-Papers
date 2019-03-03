@@ -1,8 +1,3 @@
----
-typora-copy-images-to: figures
----
-
----
 
 
 [**Top-Down**]
@@ -25,6 +20,12 @@ typora-copy-images-to: figures
   3. 使用PGPG来强化训练数据，通过学习输出结果中不同姿态的描述信息，来模仿人体区域框的生成过程，进一步产生一个更大的训练集。
 
   ![1551019792483](./figures/1551019792483.png)
+
+- [CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark](https://arxiv.org/pdf/1812.00324) [[code](https://github.com/MVIG-SJTU/AlphaPose)]
+
+  TO READ
+
+  
 
 - [Simple Baselines for Human Pose Estimation and Tracking ](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.pdf) [[code](https://github.com/Microsoft/human-pose-estimation.pytorch)]
 
@@ -67,6 +68,15 @@ typora-copy-images-to: figures
 
   ![1551019036865](./figures/1551019036865.png)
 
+- [Deep High-Resolution Representation Learning for Human Pose Estimation](https://arxiv.org/pdf/1902.09212) [[code](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]
+
+  contribution:
+
+  1. 输入到输出的全过程中，一直使用高分辨率的特征图，舍弃了以往网络中常见的high-to-low 和 low-to-high 的过程；
+  2. 在每一个阶段融合多个分辨率的特征图，使得最终的特征图更可靠。
+
+  ![1551530506453](./figures/1551530506453.png)
+
 [**Bottom-Up**]
 
 - [OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/pdf/1812.08008) [[code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]
@@ -81,4 +91,11 @@ typora-copy-images-to: figures
 - [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](https://arxiv.org/pdf/1807.04067v1.pdf) [[code](https://github.com/mkocabas/pose-residual-network)]
 
   TO READ
+
+  conribution:
+
+  1. Backbone网络用于提取图片在多尺度下的特征，第二部分包括两个分开、独立的网络，其中一个用来检测图片中所有的人体关键点（keypoint_subnet），另外一个用来图片中的行人检测（person_detect subnet），最后是PRN（Pose Residual Network）网络，将关键点检测的输出和行人检测的输出裁剪到一个固定大小的值，然后再对其进行关键点到行人的映射；
+  2. 在COCO数据集上平均23FPS，准确度是目前所有Bottom-Top方法里最高的，只有两个Top-Down的方法准确度比它高，但速度远远不如它。
+
+  ![MultiPoseNet网络示意图](./figures/1551589562343.png)
 
